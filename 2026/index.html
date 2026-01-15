@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Designing for AI-Assisted Decision-Making in Health Workshop | IH 2026</title>
+    <title>Designing for AI-Assisted Decision-Making in Health and Medicine Workshop | IH 2026</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         // Configure Tailwind to use the 'class' strategy for dark mode
@@ -69,10 +69,10 @@
     <!-- Header & Navigation -->
     <header id="header" class="sticky top-0 z-50 transition-all duration-300 glassmorphism">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#" class="text-xl font-bold text-slate-800 dark:text-white">Designing for AI-Assisted Decision-Making in Health</a>
+            <a href="#" class="text-xl font-bold text-slate-800 dark:text-white">Designing for AI-Assisted Decision-Making in Health and Medicine</a>
             <div class="hidden md:flex items-center space-x-8">
                 <a href="#about" class="nav-link text-slate-600 dark:text-slate-300 hover:text-sky-500 dark:hover:text-sky-400 font-medium">About</a>
-                <a href="#topics" class="nav-link text-slate-600 dark:text-slate-300 hover:text-sky-500 dark:hover:text-sky-400 font-medium">Topics</a>
+                <!-- <a href="#topics" class="nav-link text-slate-600 dark:text-slate-300 hover:text-sky-500 dark:hover:text-sky-400 font-medium">Topics</a> -->
                 <a href="#schedule" class="nav-link text-slate-600 dark:text-slate-300 hover:text-sky-500 dark:hover:text-sky-400 font-medium">Schedule</a>
                 <a href="#organizers" class="nav-link text-slate-600 dark:text-slate-300 hover:text-sky-500 dark:hover:text-sky-400 font-medium">Organizers</a>
                 <a href="#submit" class="nav-link text-slate-600 dark:text-slate-300 hover:text-sky-500 dark:hover:text-sky-400 font-medium">Submit</a>
@@ -111,7 +111,7 @@
                     x-transition:leave-start="opacity-100 transform translate-y-0"
                     x-transition:leave-end="opacity-0 transform -translate-y-2">
                     <a href="#about" @click="open = false" class="block py-2 text-center text-slate-600 dark:text-slate-300 hover:text-sky-500 font-medium">About</a>
-                    <a href="#topics" @click="open = false" class="block py-2 text-center text-slate-600 dark:text-slate-300 hover:text-sky-500 font-medium">Topics</a>
+                    <!-- <a href="#topics" @click="open = false" class="block py-2 text-center text-slate-600 dark:text-slate-300 hover:text-sky-500 font-medium">Topics</a> -->
                     <a href="#schedule" @click="open = false" class="block py-2 text-center text-slate-600 dark:text-slate-300 hover:text-sky-500 font-medium">Schedule</a>
                     <a href="#organizers" @click="open = false" class="block py-2 text-center text-slate-600 dark:text-slate-300 hover:text-sky-500 font-medium">Organizers</a>
                     <a href="#submit" @click="open = false" class="block w-full mt-4 text-center bg-sky-500 text-white font-semibold px-5 py-2 rounded-lg hover:bg-sky-600 transition-colors">Submit Paper</a>
@@ -127,12 +127,9 @@
             <div class="container mx-auto px-6 text-center relative">
                 <span class="text-lg font-semibold tracking-wider text-sky-200 uppercase">A IH 2026 Workshop</span>
                 <h1 class="text-4xl md:text-6xl font-bold mt-4 mb-6 leading-tight">Designing for <br> AI-Assisted Decision-Making <br> in Health</h1>
-                <p class="text-xl md:text-2xl max-w-4xl mx-auto text-sky-100">
-                    Examining Current Trends, Guidelines, and Challenges to Re-Imagine Human-AI Interaction
-                </p>
                 <div class="mt-12">
                     <a href="#submit" class="bg-white text-sky-600 font-bold text-lg px-8 py-4 rounded-lg shadow-lg hover:bg-slate-100 transform hover:scale-105 transition-all duration-300">
-                        Submit Your Position Paper
+                        Submit Your Paper
                     </a>
                 </div>
             </div>
@@ -154,56 +151,8 @@
                     <div class="md:col-span-2">
                         <div class="bg-white dark:bg-slate-800 p-8 rounded-xl shadow-lg border border-slate-200 dark:border-slate-700">
                             <h3 class="text-2xl font-bold text-slate-800 dark:text-white mb-4">Workshop Objectives</h3>
-                            <ul class="space-y-3 text-slate-600 dark:text-slate-300">
-                                <li class="flex items-start"><span class="text-sky-500 dark:text-sky-400 mr-3 mt-1">✓</span>Identify design practices and challenges for AI assisted health decision making.</li>
-                                <li class="flex items-start"><span class="text-sky-500 dark:text-sky-400 mr-3 mt-1">✓</span>Share methods to study and design decision making processes, not just outcomes.</li>
-                                <li class="flex items-start"><span class="text-sky-500 dark:text-sky-400 mr-3 mt-1">✓</span>Review existing human AI guidelines for health, surface limits, propose new decision oriented principles.</li>
-                                <li class="flex items-start"><span class="text-sky-500 dark:text-sky-400 mr-3 mt-1">✓</span>Map a design space for AI based health decision support and specify research directions across understanding, design, evaluation, and theory.</li>
-                                <li class="flex items-start"><span class="text-sky-500 dark:text-sky-400 mr-3 mt-1">✓</span>Convene HCI, AI, and healthcare researchers and practitioners.</li>
-                            </ul>
+                            <p>The objectives of our workshop are as follows: discuss and synthesize the current work being done on AI-assisted decision-making in health, identify and critique principles driving design of tools for AI-assisted decision-making, reflect on the role of theory in designing these tools, and create a community of researchers working on AI-assisted decision making in health and medicine.</p>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Topics Section -->
-        <section id="topics" class="py-20 md:py-28 bg-white dark:bg-slate-800/50">
-            <div class="container mx-auto px-6">
-                <div class="text-center max-w-3xl mx-auto mb-16">
-                    <h2 class="text-3xl md:text-4xl font-bold text-slate-800 dark:text-white">Topics & Research Questions</h2>
-                    <p class="mt-4 text-lg text-slate-600 dark:text-slate-300">We invite discussion and submissions on a range of topics critical to the future of AI in health.</p>
-                </div>
-                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Topic Card 1 -->
-                    <div class="bg-slate-50 dark:bg-slate-800 p-8 rounded-xl hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-slate-200 dark:border-slate-700">
-                        <h3 class="text-xl font-bold text-slate-800 dark:text-white mb-3">Applying Design Guidelines</h3>
-                        <p class="text-slate-600 dark:text-slate-300">How do we apply existing design guidelines in the unique, risk-averse context of healthcare?</p>
-                    </div>
-                    <!-- Topic Card 2 -->
-                    <div class="bg-slate-50 dark:bg-slate-800 p-8 rounded-xl hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-slate-200 dark:border-slate-700">
-                        <h3 class="text-xl font-bold text-slate-800 dark:text-white mb-3">Automation & Human Control</h3>
-                        <p class="text-slate-600 dark:text-slate-300">How can we operationalize human-centeredness by balancing automation and user control?</p>
-                    </div>
-                    <!-- Topic Card 3 -->
-                    <div class="bg-slate-50 dark:bg-slate-800 p-8 rounded-xl hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-slate-200 dark:border-slate-700">
-                        <h3 class="text-xl font-bold text-slate-800 dark:text-white mb-3">AI in User Workflows</h3>
-                        <p class="text-slate-600 dark:text-slate-300">What does true workflow integration mean for both clinicians and consumers, and how is it achieved?</p>
-                    </div>
-                    <!-- Topic Card 4 -->
-                    <div class="bg-slate-50 dark:bg-slate-800 p-8 rounded-xl hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-slate-200 dark:border-slate-700">
-                        <h3 class="text-xl font-bold text-slate-800 dark:text-white mb-3">Adapting Design Methods</h3>
-                        <p class="text-slate-600 dark:text-slate-300">What are the practices, challenges, and strategies to "design the right thing" and "design the thing right"?</p>
-                    </div>
-                    <!-- Topic Card 5 -->
-                    <div class="bg-slate-50 dark:bg-slate-800 p-8 rounded-xl hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-slate-200 dark:border-slate-700">
-                        <h3 class="text-xl font-bold text-slate-800 dark:text-white mb-3">Evaluation & Measurement</h3>
-                        <p class="text-slate-600 dark:text-slate-300">What should be evaluated in human-AI systems for health, and how do we measure what truly matters?</p>
-                    </div>
-                    <!-- Topic Card 6 -->
-                    <div class="bg-slate-50 dark:bg-slate-800 p-8 rounded-xl hover:shadow-xl hover:-translate-y-2 transition-all duration-300 border border-slate-200 dark:border-slate-700">
-                        <h3 class="text-xl font-bold text-slate-800 dark:text-white mb-3">Beyond Traditional Themes</h3>
-                        <p class="text-slate-600 dark:text-slate-300">Exploring work that goes beyond explainable AI and trust to forge new paradigms in interaction design.</p>
                     </div>
                 </div>
             </div>
@@ -291,19 +240,7 @@
                         <h4 class="font-bold text-lg text-slate-800 dark:text-white">Peter Brusilovsky</h4>
                         <p class="text-slate-500 dark:text-slate-400">University of Pittsburgh</p>
                     </div>
-                    <!-- Organizer 5 -->
-                     <div class="flex flex-col items-center col-span-2 md:col-span-1 lg:col-span-1 md:col-start-2 lg:col-start-auto">
-                        <img class="w-32 h-32 rounded-2 mb-4 object-cover" src="./images/wang.png" alt="Dakuo Wang">
-                        <h4 class="font-bold text-lg text-slate-800 dark:text-white">Dakuo Wang</h4>
-                        <p class="text-slate-500 dark:text-slate-400">Northeastern University</p>
-                    </div>
 
-                    <!-- Organizer 6 -->
-                     <div class="flex flex-col items-center col-span-2 md:col-span-1 lg:col-span-1 md:col-start-2 lg:col-start-auto">
-                        <img class="w-32 h-32 rounded-2 mb-4 object-cover" src="./images/mike.png" alt="Mike Schaekermann">
-                        <h4 class="font-bold text-lg text-slate-800 dark:text-white">Mike Schaekermann</h4>
-                        <p class="text-slate-500 dark:text-slate-400">Google Health</p>
-                    </div>
                 </div>
             </div>
         </section>
@@ -314,7 +251,7 @@
                  <div class="text-center max-w-4xl mx-auto">
                     <h2 class="text-3xl md:text-4xl font-bold text-slate-800 dark:text-white">Call for Participation</h2>
                     <p class="mt-4 text-lg text-slate-600 dark:text-slate-300">
-                        We invite submissions reflecting on initial artifacts, empirical results, methodologies, live AI deployments, theories, and literature based on ongoing or published work. Authors should submit a 2-page position paper (excluding references) .
+                        We invite submissions for a full day workshop on designing for AI-assisted decision making in health and medicine. This workshop will discuss and synthesize current work and reflect on principles driving the design of tools for AI-assisted decision-making for different stakeholders in health (patients, clinicians, caregivers, etc.). Participants are invited to submit reflections on initial artifacts, empirical results, methodologies, live AI deployments, theories, and current literature based on ongoing or previously published work. Topics include but are not limited to empirically understanding AI assisted decision-making, designing AI assisted decision-making tools, evaluating AI assisted decision-making, and finding a role for theories to inform research. We invite work related to diverse stakeholders in health including but not limited to patients, clinicians, and caregivers. Authors will submit a paper of 2 pages excluding references as a PDF. Submissions are due April 30, 2026, and should be submitted through the Google form below.
                     </p>
                 </div>
                 <div class="flex flex-col md:flex-row justify-center items-center gap-8 mt-12">
@@ -340,9 +277,9 @@
     <!-- Footer -->
     <footer class="bg-slate-800 text-slate-300 py-12">
         <div class="container mx-auto px-6 text-center">
-            <p class="text-lg font-semibold text-white">Designing for AI-Assisted Decision-Making in Health @ IH 2026</p>
+            <p class="text-lg font-semibold text-white">Designing for AI-Assisted Decision-Making in Health and Medicine @ IH 2026</p>
             <p class="mt-2">Questions? Contact us at <a href="mailto:designingaiforhealth@gmail.com" class="text-sky-400 hover:underline">designingaiforhealth@gmail.com</a></p>
-            <p class="mt-6 text-sm text-slate-400">&copy; 2025 Designing for AI-Assisted Decision-Making in Health Workshop Organizers. All Rights Reserved.</p>
+            <p class="mt-6 text-sm text-slate-400">&copy; 2025 Designing for AI-Assisted Decision-Making in Health and Medicine Workshop Organizers. All Rights Reserved.</p>
         </div>
     </footer>
 
@@ -439,6 +376,7 @@
     </script>
 </body>
 </html>
+
 
 
 
